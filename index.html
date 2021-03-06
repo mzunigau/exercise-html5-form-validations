@@ -29,24 +29,24 @@
                     </div> -->
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label for="inputEmail4">Card</label>
-                            <input type="card" class="form-control needs-validation" id="inputEmail4"
+                            <label for="validationCustom01">Card</label>
+                            <input type="card" class="form-control" id="inputEmail4"
                                 placeholder="XXXXXXXXXXXXXXXXX" required>
-                            <div class="invalid-feedback">
+                            <div class="valid-feedback">
                                 Looks good!
                             </div>
                         </div>
                         <div class="form-group col-md-2">
-                            <label for="inputPassword4">CVC#</label>
+                            <label for="validationCustom02">CVC#</label>
                             <input type="cvc" class="form-control" id="inputPassword4" placeholder="0000" required>
-                            <div class="invalid-feedback">
+                            <div class="valid-feedback">
                                 Looks good!
                             </div>
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="inputPassword4">Amount</label>
-                            <input type="amount" class="form-control" id="inputPassword4" placeholder="Amount">
-                            <div class="invalid-feedback">
+                            <label for="validationCustom03">Amount</label>
+                            <input type="amount" class="form-control" id="inputPassword4" placeholder="Amount" required>
+                            <div class="valid-feedback">
                                 Looks good!
                             </div>
                         </div>
@@ -56,8 +56,8 @@
                         <div class="form-group col-md-6">
 
                             <label for="inputAddress">First Name</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="">
-                            <div class="invalid-feedback">
+                            <input for="validationCustom04" type="text" class="form-control" id="inputAddress" placeholder="" required>
+                            <div class="valid-feedback">
                                 Looks good!
                             </div>
 
@@ -65,7 +65,7 @@
                         <div class="form-group col-md-6">
 
                             <label for="inputAddress">Last Name</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="" required>
+                            <input for="validationCustom05" type="text" class="form-control" id="inputAddress" placeholder="" required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
@@ -77,13 +77,13 @@
                         <div class="form-group col-md-6">
 
                             <label for="inputAddress">City</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="">
+                            <input for="validationCustom06" type="text" class="form-control" id="inputAddress" placeholder="">
 
                         </div>
                         <div class="form-group col-md-3">
 
                             <label for="inputState">State</label>
-                            <select id="inputState" class="form-control">
+                            <select for="validationCustom07" id="inputState" class="form-control">
                                 <option selected>Pick a state</option>
                                 <option>...</option>
                             </select>
@@ -92,7 +92,7 @@
 
                         <div class="form-group col-md-3">
                             <label for="inputAddress">Postal Code</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="">
+                            <input for="validationCustom08" type="text" class="form-control" id="inputAddress" placeholder="">
                         </div>
                     </div>
 
@@ -100,11 +100,11 @@
                     <div class="form-row">
                         <div class="form-group col-md-6">
 
-                            <label for="inputAddress">We accept:</label>
+                            <label >We accept:</label>
 
                             <div class="col-md-7 bg-secondary rounded p-1 text-center">
                                 <div class="form-check form-check-inline p-1">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                    <input for="validationCustom09" class="form-check-input" type="radio" name="inlineRadioOptions"
                                         id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1">
                                         <img src="icons/mastercard-32.png" alt="">
@@ -112,21 +112,21 @@
                                     </label>
                                 </div>
                                 <div class="form-check form-check-inline p-1">
-                                    <input class="form-check-input needs-validation" type="radio"
+                                    <input for="validationCustom10" class="form-check-input needs-validation" type="radio"
                                         name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1">
                                         <img src="icons/visa-32.png" alt="">
                                     </label>
                                 </div>
                                 <div class="form-check form-check-inline p-1">
-                                    <input class="form-check-input needs-validation" type="radio"
+                                    <input for="validationCustom11" class="form-check-input needs-validation" type="radio"
                                         name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1">
                                         <img src="icons/jcb-32.png" alt="">
                                     </label>
                                 </div>
                                 <div class="form-check form-check-inline p-1">
-                                    <input class="form-check-input needs-validation" type="radio"
+                                    <input for="validationCustom12" class="form-check-input needs-validation" type="radio"
                                         name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1">
                                         <img src="icons/amex-32.png" alt="">
@@ -146,6 +146,8 @@
                             <p class="text-muted">Add any notes here</p>
                         </div>
                     </div>
+                      <button type="" class="btn  btn-secondary">Cancel</button>
+               <button class="btn btn-primary" type="submit">Send</button>
                 </form>
 
 
@@ -154,7 +156,7 @@
 
 
                 <button type="" class="btn  btn-secondary">Cancel</button>
-                <button type="submit" class="btn btn-primary">Send</button>
+               <button class="btn btn-primary" type="submit">Send</button>
 
 
 
